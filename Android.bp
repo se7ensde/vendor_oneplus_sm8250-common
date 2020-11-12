@@ -149,3 +149,14 @@ dex_import {
 	owner: "qcom",
 	jars: ["proprietary/system/framework/izat.xt.srv.jar"],
 }
+
+android_app_import {
+	name: "daxService",
+	owner: "oneplus",
+	apk: "proprietary/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
