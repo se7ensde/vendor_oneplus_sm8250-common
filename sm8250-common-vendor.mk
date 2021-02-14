@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpdecoder.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmrtpencoder.so \
+    vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libsn100nfc-nci.so:$(TARGET_COPT_OUT_SYSTEM_EXT)/lib/libsn100nfc-nci.so \
     vendor/oneplus/sm8250-common/proprietaty/system_ext/lib/libsn100nfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsn100nfc_nci_jni.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdavenhancements.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfdclient.so \
@@ -82,6 +83,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpencoder.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libnqnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnqnfc-nci.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libnqnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnqnfc_nci_jni.so \
+    vendor/oneplus/sm8250-common/proprietary/sysyem_ext/lib64/libsn100nfc-nci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsn100nfc-nci.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libsn100nfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsn100nfc_nci_jni.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdclient.so \
     vendor/oneplus/sm8250-common/proprietary/system_ext/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libwfdcommonutils.so \
